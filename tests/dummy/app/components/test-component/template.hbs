@@ -1,0 +1,12 @@
+<div>
+  foo: <span data-test="foo-output">{{queryParamsProxy.foo}}</span>
+</div>
+<div>
+  bar: <span data-test="bar-output">{{queryParamsProxy.bar}}</span>
+</div>
+<div>
+  foo: <input data-test="foo-input" oninput={{action queryParamsProxy.foo_mut value="target.value"}}>
+</div>
+<div>
+  bar: <input data-test="bar-input" oninput={{action queryParamsProxy.bar_mut value="target.value"}}>
+</div>
