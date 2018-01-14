@@ -39,6 +39,14 @@ This addon enables you to do DDAU compatible handling of query parameters while 
   </div>
   ```
 
+* If using [ember-form-for](https://github.com/martndemus/ember-form-for) you probably want to use the third parameter of the `update` action which contains the value. In this you can simple include the option `emberFormFor` when creating the proxy like this:
+
+  ```javascript
+  import proxy from 'ember-queryparams-proxy';
+
+  queryParamsProxy: proxy({ emberFormFor: true })
+  ```
+
 ## TODO:s & future enhancements
 
 * Currently we only support string-configured query parameters:

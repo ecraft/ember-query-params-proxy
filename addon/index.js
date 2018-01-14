@@ -8,7 +8,7 @@ export default (options = {}) => {
         get(this, 'controller.queryParams').forEach(function(param) {
           defineProperty(this, param, computed.alias(`controller.${param}`));
           set(this, `${param}_mut`, function() {
-            const value = options.formFor ? arguments[2] : arguments[0]
+            const value = options.emberFormFor ? arguments[2] : arguments[0]
             set(this, `controller.${param}`, value);
           }.bind(this));
         }.bind(this));
