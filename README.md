@@ -39,6 +39,37 @@ This addon enables you to do DDAU compatible handling of query parameters while 
   </div>
   ```
 
+## TODO:s & future enhancements
+
+* Currently we only support string-configured query parameters:
+
+  ```javascript
+  queryParams: [ 'foo', 'bar' ]
+  ```
+
+  We should also support object-configured query parameters:
+
+  ```javascript
+  queryParams: {
+    foo: {
+      type: 'number'
+    },
+    bar: {
+      type: 'string'
+    }
+  }
+  ```
+
+  As well as mixed-mode configurations:
+
+  ```javascript
+  queryParams: [ 'foo',
+    { bar: 'query_params_bar' }
+  ]
+  ```
+
+* It might also be good to make it possible to hook into the mutation action before it updates the query parameter property. For instance with more complex objects like dates and such, some manual mangling might be wanted.
+
 ## Development & Running
 
 * `git clone <repository-url>` this repository
