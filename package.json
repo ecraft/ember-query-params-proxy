@@ -4,7 +4,9 @@
   "description": "Ember addon for easier DDAU compatible handling of query parameters.",
   "keywords": [
     "ember-addon",
-    "query-parameters"
+    "query-parameters",
+    "query-params",
+    "query params"
   ],
   "license": "MIT",
   "author": [
