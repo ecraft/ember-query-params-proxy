@@ -1,8 +1,8 @@
-import Object, { computed, defineProperty, get, set } from '@ember/object';
+import EmberObject, { computed, defineProperty, get, set } from '@ember/object';
 
 export default (options = {}) => {
   return computed('queryParams', function() {
-    return Object.create({
+    return EmberObject.create({
       controller: this,
       init: function() {
         get(this, 'controller.queryParams').forEach(function(param) {
