@@ -1,15 +1,15 @@
-# ember-queryparams-proxy
+# ember-query-params-proxy
 
 This addon enables you to do DDAU compatible handling of query parameters while passing the parameters on the subcomponents. This makes it easy to use query parameters in your application and let the controller contain the single source of truth with regards to the value of the parameters. The queryParams proxy gives you a convenient way to pass along several query parameters as well as their mutation actions to components without the need to enumerate each parameter and manually create mutation actions for them.
 
 ## Usage
 
-* `ember install ember-queryparams-proxy`
+* `ember install ember-query-params-proxy`
 * In your controller file you specify the query parameters to use in normal fashion but also create a computed property with the help of the queryParams proxy like this:
 
   ```javascript
   import Controller from '@ember/controller';
-  import proxy from 'ember-queryparams-proxy';
+  import proxy from 'ember-query-params-proxy';
 
   export default Controller.extend({
     queryParams: [ 'foo', 'bar' ],
@@ -42,7 +42,7 @@ This addon enables you to do DDAU compatible handling of query parameters while 
 * If using [ember-form-for](https://github.com/martndemus/ember-form-for) you probably want to use the third parameter of the `update` action which contains the value. In this you can simple include the option `emberFormFor` when creating the proxy like this:
 
   ```javascript
-  import proxy from 'ember-queryparams-proxy';
+  import proxy from 'ember-query-params-proxy';
 
   queryParamsProxy: proxy({ emberFormFor: true })
   ```
@@ -81,7 +81,7 @@ This addon enables you to do DDAU compatible handling of query parameters while 
 ## Development & Running
 
 * `git clone <repository-url>` this repository
-* `cd ember-queryparams-proxy`
+* `cd ember-query-params-proxy`
 * `yarn install`
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).

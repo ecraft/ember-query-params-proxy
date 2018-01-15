@@ -1,5 +1,5 @@
 {
-  "name": "ember-queryparams-proxy",
+  "name": "ember-query-params-proxy",
   "version": "0.0.0",
   "description": "Ember addon for easier DDAU compatible handling of query parameters.",
   "keywords": [
@@ -14,7 +14,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/ecraft/ember-queryparams-proxy",
+  "repository": "https://github.com/ecraft/ember-query-params-proxy",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
