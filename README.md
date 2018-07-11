@@ -3,6 +3,7 @@
 [![Ember Observer Score](http://emberobserver.com/badges/ember-query-params-proxy.svg?cache_bust=1)](http://emberobserver.com/addons/ember-query-params-proxy)
 [![npm package version](https://img.shields.io/npm/v/ember-query-params-proxy.svg)](https://www.npmjs.com/package/ember-query-params-proxy)
 [![license MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ecraft/ember-query-params-proxy/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.com/ecraft/ember-query-params-proxy.svg?branch=master)](https://travis-ci.com/ecraft/ember-query-params-proxy)
 
 This addon enables you to do [DDAU](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up) compatible handling of query parameters while passing the parameters on the subcomponents. This makes it easy to use query parameters in your application and let the controller contain the single source of truth with regards to the value of the parameters. The queryParams proxy gives you a convenient way to pass along several query parameters as well as their mutation actions to components without the need to enumerate each parameter and manually create mutation actions for them.
 
