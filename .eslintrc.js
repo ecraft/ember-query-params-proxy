@@ -16,12 +16,6 @@ module.exports = {
   },
   rules: {
   },
-  globals: {
-    "visit": true,
-    "andThen": true,
-    "fillIn": true,
-    "currentURL": true
-  },
   overrides: [
     // node files
     {
