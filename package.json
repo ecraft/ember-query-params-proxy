@@ -11,7 +11,8 @@
   "repository": "https://github.com/ecraft/ember-query-params-proxy",
   "license": "MIT",
   "author": [
-    "Mikael Riska <mikael.riska@ecraft.com>"
+    "Mikael Riska <mikael.riska@ecraft.com>",
+    "Olle Jonsson <olle.jonsson@gmail.com>"
   ],
   "directories": {
     "doc": "doc",
