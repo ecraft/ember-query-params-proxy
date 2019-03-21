@@ -1,3 +1,4 @@
+/* eslint-disable ember/no-side-effects */
 import EmberObject, { computed, defineProperty, get, set } from '@ember/object';
 
 export default (options = {}) => {
