@@ -59,5 +59,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "resolutions": {
+    "morgan": "1.9.1"
   }
 }
